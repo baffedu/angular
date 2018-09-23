@@ -6,3 +6,4 @@ RUN apt-get update && apt-get -y install rsync \
 
 RUN npm install -g @angular/cli
 RUN npm install -g node-gyp
+RUN npm install -g sass
