@@ -1,7 +1,7 @@
 FROM node:8.12-alpine
 MAINTAINER wish@baffedu.com
 
-RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
+# RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
 
 RUN set x=1 && \
     apk update && \
